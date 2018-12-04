@@ -1,0 +1,203 @@
+/* position change to relative for all div to make design responsive 
+for small screens in about id height 45% for the same design responsive reason */
+
+
+
+#name-top {
+	margin-top: 0px;
+	padding-top: 20px;
+	margin-left: 40px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2.2vw; /*25px*/
+	text-decoration: underline;
+	color: white;
+	position: relative;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+#intro_content {
+	position: relative;
+	align-content: center;
+	background-color: #1F2833;
+	height: 1000px;
+	width: 100%;
+
+}
+
+
+#des_intro {
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	padding-bottom: 40px;
+	
+}
+
+#hello {
+	position: relative;
+	padding-top: 80px;
+	text-align: center;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 120px;
+	color: #C5C6C7;
+	margin-bottom: 0px;
+}
+
+i {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+	float: right;
+	margin-right: 70px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#about {
+	position: relative;
+	height: 45%;
+	width: 100%;
+	background-color: #39CCCC;
+}
+
+#about_head {
+	position: relative;
+	margin-top: 0px;
+	color:#1F2833;
+	text-align:center;
+	padding-top:110px;
+	font-size: 35px;
+	text-decoration: underline ;
+	font-family: 'Nunito', serif;
+	font-weight: bold;
+}
+
+
+#about_des {
+	position: relative;
+	padding-top: 15px;
+	padding-left: 27%;
+	padding-right: 27%;
+	text-align: justify;
+	line-height: 1.5;
+	font-size: 25px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+#achieve {
+	position: relative;
+	width: 100%;
+	height: 750px;
+	background-color: #F8C93E;
+	
+}
+
+#achieve_head {
+	position: relative;
+	margin-top: 0px;
+	text-align:center;
+	padding-top:110px;
+	font-size: 35px;
+	text-decoration: underline ;
+	font-family: 'Nunito', serif;
+	font-weight: bold;
+	color: black;
+}
+
+#achieve_des {
+	position: relative;
+	padding-top: 15px;
+	padding-left: 27%;
+	padding-right: 27%;
+	text-align: justify;
+	line-height: 1.5;
+	font-size: 25px;
+	color: black;  
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+#connect {
+	position: relative;
+	width : 100%;
+	height: 750px;
+	background-color:#CADDDC; 
+}
+
+#connect_head {
+	position: relative;
+	margin-top: 0px;
+	color:#373C3E;
+	text-align:center;
+	padding-top:110px;
+	font-size: 35px;
+	text-decoration: underline;
+	font-family: 'Nunito',serif;
+	font-weight: bold;
+}
+
+#connect_des {
+	position: relative;
+	padding-top: 15px;
+	text-align: center;
+	line-height: 4;
+	font-size: 25px;
+	font-family: 'Fira Sans', sans-serif;
+	color: #373C3E;
+}
+
+#avatar {
+	position: relative;
+	border-radius: 50%;
+	padding: 5px;
+	border-width: 2px;
+	border: solid #78D7ED;
+	height: 200px;
+	width: 200px;
+}
+
+
+.icon {
+	position: relative;
+	padding: 0px;
+	width: 48px;
+	height: 48px;
+}
+
+#design {
+	position: relative;
+	text-align: center;
+	background-color: #193646;
+}
+
+#design_des {
+	position: relative;
+	font-size: 40px;
+	font-family: 'Satisfy', cursive;
+	color: #78D7ED ;
+	text-decoration: underline;
+	margin-bottom: 0px;
+	padding-bottom: 40px;
+}
+
+#design_head {
+	position: relative;
+	padding-top: 30px;
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	color: #78D7ED ;
+	margin-top: 0px;
+}
