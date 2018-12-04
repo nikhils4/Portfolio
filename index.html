@@ -1,8 +1,126 @@
+<!DOCTYPE html>
+<html>
 <head>
-<title>
-Nikhil Singh 
-</title>
+	<title>
+		Nikhil Singh
+	</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--Favicon-->
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<!--Jquery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!--Fonts import - Google-->
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Noto+Sans+SC|Quicksand|Philosopher|Kodchasan|Alegreya|Alegreya+Sans|Fira+Sans|Josefin+Sans|Julius+Sans+One|Merriweather|Merriweather+Sans|Nunito|Nunito+Sans|Quattrocento|Quattrocento+Sans|Roboto|Roboto+Mono|Roboto+Slab|Satisfy|Source+Sans+Pro|Bungee+Inline" rel="stylesheet">
+		
+		<!-- Linking local stylesheet -->
+		<link href="web_main.css" rel="stylesheet" type="text/css" >
+
+
+		<script>
+		$(document).ready(function(){
+		$('#hello').css('display', 'none');
+    	$('#hello').fadeIn(1000);
+    	$('#des_intro').css('display', 'none');
+    	$('#des_intro').fadeIn(2000);
+    	$("body").addClass("animated hinge");
+		});
+		</script>
 </head>
 <body>
-Hello this is nikhils.tech test.
+
+
+	<div id="intro_content">
+
+            <p id="name-top">n<span style="color: yellow;">i</span>kh<span style="color: yellow;">i</span>l<br></p>
+
+        <p id="hello">Hello.<br><i class="right"></i></p>
+
+		<p id="des_intro">I am a Web Developer by passion<br>
+		I love coding and reading books
+		<br><br><br><br><br><br>
+
+		</p>
+	</div>
+	<div id="about">
+		<p id="about_head">
+			ABOUT
+		</p>
+		<p id="about_des">
+				Hello Friends! I will not talk myself and not even highlight my short yet significant journey in coding and technology world. It’s not about me it’s all about what I want to do and how that can bring changes for a larger mass. I want to see the positive change and spark in everyone’s life and this thing alone drives me to do what I am doing at present.
+				<br>
+				<br> 
+				I was a complete novice to the coding world until recently and now I am into it more than anything else. I love reading books and always eager to learn about front end and back end of everything that relates to technology.
+		</p>
+	</div>	
+	<div id="achieve">
+		<p id="achieve_head">
+			ACHIEVEMENTS
+		</p>
+		<p id="achieve_des">
+			Achievements to be listed here.
+		</p>
+	</div>
+
+	<div id="connect">
+		<p id="connect_head">
+			CONNECT WITH ME
+		</p>
+		<br>
+		<p id="connect_des">
+			<a href="https://www.facebook.com/ImSnik" style="padding-top: 20px; padding-right: 150px;"><img class="icon" src="facebook.png"></a>
+			<a href="https://twitter.com/Im_Snik"><img class="icon" src="twitter.png"></a>
+			<br>
+			<a href="https://www.instagram.com/nikhil.singh04/" style="padding-right: 150px;"><img class="icon" src="instagram.png"></a>
+			<a href="https://www.hackerrank.com/nikhils4"><img class="icon" src="hacker.png"></a>
+			<br>
+			<a href="https://github.com/nikhils4" style="padding-right: 150px;"><img class="icon" src="github.png"></a>
+			<a href="https://www.linkedin.com/in/nikhil-singh-955995148/"><img class="icon" src="linkedin.png"></a>
+		</p>
+	</div>
+
+
+
+    <form onsubmit=" return validate()">
+        <label>Name : <input id="form_name" name="name" type="text"></label>
+        <label>Email-id : <input id="form_email-id" name="email-id" type="text"></label>
+        <label>Message : <textarea id="form_message" name="message" cols="40" rows="60" ></textarea></label>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+	<div id="design">
+		<p id="design_head">Designed and maintained by </p>
+		<!-- Avatar image-->
+		<img src="meni.jpg" id="avatar">
+		<p id="design_des">Nikhil Singh</p>
+	</div>
+
+    <script>
+        function validate() {
+            var name = document.getElementById('form_name').value;
+            var email = document.getElementById('form_email-id').value;
+            var message = document.getElementById('form_message').value;
+            if (name.length === 0){
+                    alert('Please enter name!');
+                    return false;
+            }
+            else if (message.length === 0) {
+                alert('Enter some message !')
+            }
+            else {
+                var reg = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                if (reg.test(email) === false) {
+                    alert('Enter valid E-mail id');
+                    return false;
+                }
+            }
+        }
+    </script>
+
+
 </body>
+
+</html>
