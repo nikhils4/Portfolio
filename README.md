@@ -4,7 +4,7 @@ This repo was used to host website from github repo.
 
 Due to restrictions regarding static website serving, the personal-website repo is now used to host website.
 
-To know more about how to host website from github visit https://pages.github.com/ .
+To know more about how to host website from github visit https://pages.github.com/ 
 
 
 
